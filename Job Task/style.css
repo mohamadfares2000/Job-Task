@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tajawal:wght@200;300;400;500;700;800;900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.test {
+    position: relative;
+}
+.image-container {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    
+}
+
+.image-container img {
+    width: 100vw;
+    display: block;
+
+}
+
+
+.container_test {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.Profile-card {
+        position: absolute;
+        width: 360px;
+        height: 500px;
+        left: 79px;
+        bottom: 110px;
+        border-radius: 175px 175px 0px 0px;
+        /* z-index: -1; */
+        border: solid 1px #9B9494;
+        font-family: 'Inter';
+        font-style: normal;
+        box-shadow: 0px 4px 9px rgb(0 0 0 / 33%);
+        top: 240px;
+        left: 150px;
+}
+.profile-face {
+    margin-left: 76px;
+    margin-top: 20px;
+}
+.info {
+    text-align: center;
+}
+.User-name {
+    color: #242760;
+    margin-top: 0px;
+}
+
+.title-info {
+    font-size: 18px;
+    color: #544C4C;
+    margin-top: -10px;
+}
+
+.Place {
+    display: flex;
+    margin-left: 110px;
+    margin-top: -10px;
+}
+.Place i{
+    color: rgb(78 73 73);
+    font-size: 36px; 
+    margin-right: 10px;
+}
+
+.Place p {
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+      margin-left: 20px;
+}
+
+.container_test {
+    padding-top: 440px;
+}
+.Acount-info {
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Followers {
+    color: #242760;
+}
+
+.Btns {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.Btns button {
+    background-color: #242760 ;
+    color: #FFFFFF;
+    border-radius: 11px;
+    width: 137.18px;
+    height: 39.74px;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+}
+
+.main-btns {
+    display: flex;
+    justify-content: center; 
+    font-family: 'Inter';
+    font-style: normal;
+    color: #242760 ;
+}
+
+.Photos {
+    margin-right: 150px; 
+    border-bottom: 1px solid black;
+    width: 120px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.Likes {
+    color: #9B9494 ;
+    border-bottom: 1px solid rgba(0, 0, 0, .1) ; 
+    width: 120px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.Images {
+width: 100%;    }
+.Images img {
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.body-section{
+    width: 65%;
+}
+
+
+.img-phone{
+    display: none !important;
+}
+
+.img-web{
+    display: block;
+}
+
+@media (max-width: 768px) {
+   
+.img-web{
+    display:   none !important;
+}
+
+.img-phone{
+    display: block !important;
+}
+.container_test{
+    flex-direction: column-reverse;
+    height: 100%;
+    height: 39vh;
+    padding-top: 895px;
+}
+
+nav {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.Profile-card{
+    top: 247px;
+    left: 128px;
+    width: 328px;
+}
+.img {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.Images {
+    display: flex;
+}
+
+}
